@@ -4,6 +4,10 @@ body{
   font-size: 14px;
 }
 
+img {
+  max-width: 100%
+}
+
 nav{
   background-color: rgba(255,255,255,0.75);
   display: flex;
@@ -22,4 +26,17 @@ nav a:hover{
 
 nav a.active {
   background: white;
+}
+
+.cardgroup {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.card {
+  background: rgba(255,255,255,0.4);
+  padding: 20px;
+  border: solid 10px white;
+  margin: 10px;
 }
