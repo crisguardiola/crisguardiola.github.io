@@ -1,3 +1,18 @@
 body{
-  background: tomato;
+  background: yellowgreen;
+  font-family: poppins, system-ui, sans-serif;
+  font-size: 14px;
+}
+
+nav{
+  background-color: rgba(255,255,255,0.75);
+  display: flex;
+}
+
+nav a {
+  padding: 20px;
+}
+
+nav a.active {
+  background: white;
 }
